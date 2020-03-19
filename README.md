@@ -1,12 +1,12 @@
-# Discord Bot for BoTW
+# Discord Bot to announce streams from a certain Twitch streamer
 
-A basic discord bot that tracks twitch streams for a specific game, and posts messages to discord when twitch streams go live. Can also assign color roles.
+A basic discord bot that tracks twitch streams from a specific streamer, and posts messages to discord when twitch streams go live.
 
-Note: It only tracks one game, and only posts to one discord channel.
+Note: It only tracks one streamer (as of know), and only posts to one discord channel.
 
 Type `.streams` to display currently live twitch streams.
 
-Based off the [Dustforce Discord Bot](https://github.com/Joel4558/Dustforce-discord)
+Based off [TreZc0's BotW Superbot](https://github.com/TreZc0/botw-superbot)
 
 # How to set up:
 
@@ -39,9 +39,6 @@ To get the channel ID of a channel in your discord server, turn on developer mod
 
 `discord-notifications-channel-id`
   * The channel the bot posts "going live" notifications to.
-
-`bot-currently-playing`
-  * The game "currently being played" by your bot.
 
 ### Step 3
 
